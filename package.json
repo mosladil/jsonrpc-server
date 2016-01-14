@@ -1,0 +1,29 @@
+{
+  "name": "jsonrpc-server",
+  "version": "0.0.1",
+  "description": "Simple json-rpc server serving static content for testing purposes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosladil/jsonrpc-server.git"
+  },
+  "keywords": [
+    "jsonrpc",
+    "simple",
+    "server"
+  ],
+  "author": "mosladil@kerio.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mosladil/jsonrpc-server/issues"
+  },
+  "homepage": "https://github.com/mosladil/jsonrpc-server#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3"
+  }
+}
